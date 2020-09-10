@@ -19,13 +19,30 @@
     grid-row: 1 / 2;
 }
 
+.div2 img {
+    height: 6rem;
+}
+
 .div3 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 
     grid-column: 4 / 5;
     grid-row: 2 / 3;
+    background-color: #29292e;
+}
+
+.div3 span {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.div3 img {
+    height: 1.2rem;
+    margin-right: 1em;
 }
 
 .div4 {
@@ -36,22 +53,40 @@
 .rTable {
     width: 100%;
     text-align: center;
-    color: #fff;
 }
 
 .rTable thead {
     background-color: #8257e6;
-    color: #fff;
 }
 
 .rTable tbody tr:nth-child(2n){
     background-color: #29292e;
 }
 
-.div2 img {
-    height: 4rem;
+.title-frases {
+    margin: 2rem 0rem 0rem 2rem;
 }
 
+.container {
+    max-width: 1430px;
+    margin: 2rem 0rem 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-frase {
+    width: 18rem;
+    margin-right: 1.5rem;
+    padding: 1.4rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    background-color: #8257e6;
+}
+
+.card-frase span {
+    font-weight: 700;
+    color: #2c1c53;   
+}
 
 @media screen and (max-width: 480px){
     .rTable th {padding: 1em 0;}
