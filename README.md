@@ -35,6 +35,8 @@ Siga as seguintes informações e instruções:
 
 # 📝 Sobre o projeto
 
+- Curso HTML+CSS/Sass
+
 Este é um projeto acadêmico. Seu principal objetivo é facilitar a avaliação dos professores.
 
 ---
